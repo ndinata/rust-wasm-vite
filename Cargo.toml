@@ -9,3 +9,6 @@ license = "MIT"
 
 [workspace.dependencies]
 thiserror = "1.0.50"
+
+[profile.release]
+lto = true
