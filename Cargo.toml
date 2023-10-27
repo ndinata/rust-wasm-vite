@@ -1,5 +1,5 @@
 [workspace]
-members = ["calculator", "calculator_web"]
+members = ["calculator", "calculator_cli", "calculator_web"]
 resolver = "2"
 
 [workspace.package]
@@ -8,6 +8,7 @@ edition = "2021"
 license = "MIT"
 
 [workspace.dependencies]
+anyhow = "1.0.75"
 thiserror = "1.0.50"
 
 [profile.release]

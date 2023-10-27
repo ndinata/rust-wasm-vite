@@ -1,0 +1,14 @@
+[package]
+name = "calculator_cli"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "calc"
+path = "src/main.rs"
+
+[dependencies]
+calculator = { version = "0.1.0", path = "../calculator" }
+anyhow = { workspace = true }
