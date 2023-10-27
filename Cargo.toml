@@ -3,9 +3,12 @@ members = ["calculator", "calculator_cli", "calculator_web"]
 resolver = "2"
 
 [workspace.package]
-authors = ["Nico"]
+authors = ["Nico Dinata <nicodnt@icloud.com>"]
 edition = "2021"
+homepage = "https://github.com/ndinata/rust-wasm-vite"
 license = "MIT"
+readme = "readme.md"
+repository = "https://github.com/ndinata/rust-wasm-vite"
 
 [workspace.dependencies]
 anyhow = "1.0.75"
