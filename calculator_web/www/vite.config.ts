@@ -11,4 +11,8 @@ export default defineConfig({
   build: {
     target: "esnext",
   },
+
+  // For deployment to GH pages
+  // https://vitejs.dev/guide/static-deploy.html#github-pages
+  base: "/rust-wasm-vite/",
 });
