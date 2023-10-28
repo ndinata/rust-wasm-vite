@@ -47,7 +47,7 @@ Prerequisites:
 - you'd also need [`wasm-pack`](https://rustwasm.github.io/wasm-pack/installer/)
   to handle the Wasm package and glue code generation
 
-Afterwards, to run the web app locally in your browser:
+To run the web app locally in your browser:
 
 ```bash
 $ cd rust-wasm-vite/calculator_web/
@@ -59,8 +59,10 @@ $ wasm-pack build
 $ cd www && npm install
 
 # Spin up a local server, which you can open with your browser
-$ npm run preview
+$ npm run dev
 ```
+
+A deployed version is also available here: https://ndinata.github.io/rust-wasm-vite/
 
 _P.S. The error message you see on the web app when doing division by 0 comes from
 the [Rust lib](./calculator/src/lib.rs)!_
